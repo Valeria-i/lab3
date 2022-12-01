@@ -1,0 +1,15 @@
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\Informationsystem.csproj.AssemblyReference.cache
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\MainWindow.g.cs
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\App.g.cs
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\Informationsystem_MarkupCompile.cache
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\Informationsystem_MarkupCompile.lref
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\bin\Debug\Informationsystem.exe.config
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\bin\Debug\Informationsystem.exe
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\bin\Debug\Informationsystem.pdb
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\MainWindow.baml
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\Informationsystem.g.resources
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\Informationsystem.Properties.Resources.resources
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\Informationsystem.csproj.GenerateResource.cache
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\Informationsystem.csproj.CoreCompileInputs.cache
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\Informationsystem.exe
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\Informationsystem.pdb
