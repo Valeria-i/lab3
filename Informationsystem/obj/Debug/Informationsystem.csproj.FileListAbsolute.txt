@@ -1,4 +1,3 @@
-D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\Informationsystem.csproj.AssemblyReference.cache
 D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\MainWindow.g.cs
 D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\App.g.cs
 D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\Informationsystem_MarkupCompile.cache
@@ -13,3 +12,11 @@ D:\2 курс\программировние ч2\Informationsystem\Informationsy
 D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\Informationsystem.csproj.CoreCompileInputs.cache
 D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\Informationsystem.exe
 D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\Informationsystem.pdb
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\bin\Debug\MaterialDesignColors.dll
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\bin\Debug\MaterialDesignColors.pdb
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\App.baml
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\Informationsystem.csproj.CopyComplete
+D:\2 курс\программировние ч2\Informationsystem\Informationsystem\obj\Debug\Informationsystem.csproj.AssemblyReference.cache

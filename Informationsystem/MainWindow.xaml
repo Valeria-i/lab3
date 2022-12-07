@@ -3,9 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         xmlns:local="clr-namespace:Informationsystem"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" d:DataContext="{d:DesignInstance Type=local:ViewModel}"
         mc:Ignorable="d"
-        Title="Суши" Height="450" Width="800">
+        Title="Суши от души"  Height="500" Width="800" FontSize="14" FontFamily="Swis721 Lt BT" Foreground="#FF3DE71A" FontWeight="Bold">
     <Window.Resources>
         <Style TargetType="TextBlock">
             <Setter Property="FontSize" Value="14" />
@@ -14,7 +16,7 @@
             <Setter Property="FontSize" Value="14" />
         </Style>
     </Window.Resources>
-    <Grid>
+    <Grid Background="#FFEFD5">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="0.8*" />
@@ -25,27 +27,26 @@
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Margin="5">
-                        <TextBlock FontSize="18" Text="{Binding Path=Name}" />
-                        <TextBlock Text="{Binding Path=Price}" />
+                        <TextBlock  Style="{StaticResource MaterialDesignBody1TextBlock}" FontSize="14" Text="{Binding Path=Name}" FontWeight="Bold" />
+                        <TextBlock  Style="{StaticResource MaterialDesignBody1TextBlock}" Text="{Binding Path=Price}" FontSize="14" FontWeight="Bold" />
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
 
         <StackPanel Grid.Column="1" DataContext="{Binding SelectedItem}">
-            <TextBlock Text="Выбранный элемент"  />
-            <TextBlock Text="Сет" />
-            <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" />
-            <TextBlock Text="Цена" />
-            <TextBox Text="{Binding Price, UpdateSourceTrigger=PropertyChanged}" />
-            <TextBlock Text="Кол-во соусов"/>
-            <TextBox Text="{Binding Sauce, UpdateSourceTrigger=PropertyChanged}"/>
-            <TextBlock TextWrapping="Wrap" Text="Кол-во порций васаби"/>
-            <TextBox Text="{Binding Wasabi, UpdateSourceTrigger=PropertyChanged}"/>
-            <TextBlock TextWrapping="Wrap" Text="Кол-во порций имбиря"/>
-            <TextBox Text="{Binding Imbir, UpdateSourceTrigger=PropertyChanged}"/>
-            <Button Content="Купить" Margin="30,30,227.8,0"/>
-
+            <TextBlock Text="Выбранный элемент" Style="{StaticResource MaterialDesignBody1TextBlock}" FontSize="14" Foreground="#FF8321E8" FontWeight="Bold" />
+            <TextBlock Text="Сет" Style="{StaticResource MaterialDesignBody1TextBlock}" FontSize="14" Foreground="#FF8321E8" FontWeight="Bold"/>
+            <TextBlock x:Name="textBlockset" Style="{StaticResource MaterialDesignBody1TextBlock}" Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBlock  Text="Цена" Style="{StaticResource MaterialDesignBody1TextBlock}" FontSize="14" Foreground="#FF8321E8" FontWeight="Bold" />
+            <TextBlock x:Name="textBlockprice" Style="{StaticResource MaterialDesignBody1TextBlock}" Text="{Binding Price, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBlock Text="Кол-во соусов (50р)" Style="{StaticResource MaterialDesignBody1TextBlock}" FontSize="14" Foreground="#FF8321E8" FontWeight="Bold"/>
+            <TextBox x:Name="textBlocksouce" Style="{StaticResource MaterialDesignTextBox}" Text="{Binding Sauce, UpdateSourceTrigger=PropertyChanged}" KeyDown="TextBox_KeyDown"/>
+            <TextBlock TextWrapping="Wrap" Text="Кол-во порций васаби (30р)" Style="{StaticResource MaterialDesignBody1TextBlock}" FontSize="14" Foreground="#FF8321E8" FontWeight="Bold"/>
+            <TextBox x:Name="textBlockwasabi" Style="{StaticResource MaterialDesignTextBox}" Text="{Binding Wasabi, UpdateSourceTrigger=PropertyChanged}" KeyDown="TextBox_KeyDown"/>
+            <TextBlock TextWrapping="Wrap" Text="Кол-во порций имбиря (20р)" Style="{StaticResource MaterialDesignBody1TextBlock}" FontSize="14" Foreground="#FF8321E8" FontWeight="Bold"/>
+            <TextBox x:Name="textBlockimbir" Style="{StaticResource MaterialDesignTextBox}" Text="{Binding Imbir, UpdateSourceTrigger=PropertyChanged}" KeyDown="TextBox_KeyDown"/>
+            <Button x:Name="buttonoreder" Style ="{StaticResource MaterialDesignFlatButton}"  Background="#FF6BFF00" Content="Заказать" Margin="30,0,227.8,0" Foreground="#FF671EEA" Command="{Binding OrderCommand}" />
         </StackPanel>
     </Grid>
 </Window>
