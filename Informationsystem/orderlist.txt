@@ -7,3 +7,11 @@ Amount of sauce, imbir, wasabi:
 Price: 1240
 -------------------
 
+New order
+-------------------
+Set: Mini
+Amount of sauce, imbir, wasabi: 
+1 1 3
+Price: 660
+-------------------
+

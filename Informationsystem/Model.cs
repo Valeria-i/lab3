@@ -13,8 +13,18 @@ using System.IO;
 
 namespace Informationsystem
 {
+   //class Sauce
+   //{}
+   // class Wasabi
+   // {
+   //     public int levelofsharpness { get; set; }
+   // }
+   // class Imbir
+   // {
+   //     public string color { get; set; }
+   // }
    public class Item: INotifyPropertyChanged
-    {
+   {
         private string name;
         private int price;
         private int sauce;
@@ -41,7 +51,7 @@ namespace Informationsystem
             }
         }
 
-        public int Sauce
+        public int Sauce 
         {
             get { return sauce; }
             set
